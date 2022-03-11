@@ -181,4 +181,33 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Test_Field_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Field Picklist</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Val1</fullName>
+                    <default>false</default>
+                    <label>Val1</label>
+                </value>
+                <value>
+                    <fullName>Val2</fullName>
+                    <default>false</default>
+                    <label>Val2</label>
+                </value>
+                <value>
+                    <fullName>Val3</fullName>
+                    <default>false</default>
+                    <label>Val3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
 </CustomObject>
